@@ -1,15 +1,107 @@
-table{
-  
-    
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+/* REGLA 1 */
+* {
+    font-family: "Madimi One", sans-serif;
+}
+
+
+/* REGLA 2 */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+
+/* REGLA 3 */
+h1 {
+    text-align: center;
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+/* REGLA 4 */
+.selector {
+    color: lightcyan;
+}
+
+
+
+/* REGLA 5 */
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
+
+/* REGLA 6 */
+#universal {
+    color: lightgoldenrodyellow;
+}
+
+
+/* REGLA 7 */
+h2.selector, h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+/* REGLA 8: */
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+/* REGLA 9 */
+li > a {
+    text-decoration: none;
+}
+
+
+
+/* REGLA 10 */
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+/* REGLA 11 */
+#gallery div {
+    width: 100%;
+}
+
+
+
+/* REGLA 12 */
+img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
 
 
 
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
 
+.fila1 {
+    background-color: #dbdbdbbc;
+}
 
-
-
-
-    
+#tabla2{
+    padding: 3px;
+    border: solid darkcyan 1px;
+    border-radius: 1%;
 }
