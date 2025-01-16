@@ -91,9 +91,10 @@ table {
 }
 
 th, td {
-    border: 1px solid black;
-    padding: 8px;
+
+    padding: 10px;
     text-align: left;
+    font-size: 31.5px;
 }
 
 .fila1 {
@@ -104,4 +105,14 @@ th, td {
     padding: 3px;
     border: solid darkcyan 1px;
     border-radius: 1%;
+}
+
+#tabla3{
+    border: solid #dbdbdbbc 1px;
+}
+
+
+.sub{
+    text-decoration: underline;
+    font-style: italic;
 }
